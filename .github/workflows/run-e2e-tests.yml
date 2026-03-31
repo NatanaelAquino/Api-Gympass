@@ -32,9 +32,6 @@ jobs:
 
       - name: Generate Prisma Client
         run: npx prisma generate
-
-      - name: Generate Prisma Client
-        run: npx prisma generate
         env:
           DATABASE_URL: "postgresql://docker:docker@localhost:5432/apisolid"
 
